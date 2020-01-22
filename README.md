@@ -4,7 +4,7 @@ All-in-one interactive CMS (Content Management System) and SCS (Structured Conte
 
 ## Customization
 
-Apart from scaffolding in the normal way using `yarn` and `create-strapi-app`, and creating an initial admin user, there are two points of customization:
+Apart from scaffolding [in the normal way](https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start.html#_1-install-strapi-and-create-a-new-project), with `yarn create strapi-app my-project`, (without using the `--quickstart` Sqlite option), and then creating an initial admin user, there are two points of customization:
 
 * MongoDB is used for development mode, instead of Sqlite
 * As a result I have added support for using `.env` for server and database configuration, even in development mode
@@ -24,4 +24,4 @@ from [@derrickmehaffy's comment](https://github.com/strapi/strapi/issues/3558#is
 
 While `.env` is of course not tracked, I do include an [.env.sample](.env.sample) file for reference.
 
-The local file `.env` is used by development too, since `config/environments/development/server.js and config/environments/development/database.js use `process.env.{VAR}`.
+The local file `.env` is used by development too, since `config/environments/development/server.js and config/environments/development/database.js` use `process.env.{VAR}`.
