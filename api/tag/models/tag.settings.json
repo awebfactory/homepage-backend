@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "tags",
+  "info": {
+    "name": "tag"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "idLegacy": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "tagSlug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "tagName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "vocabIdLegacy": {
+      "type": "biginteger",
+      "unique": false
+    },
+    "vocabSlug": {
+      "type": "string",
+      "unique": false
+    },
+    "vocabName": {
+      "type": "string",
+      "unique": false
+    },
+    "tagDescription": {
+      "type": "text"
+    }
+  }
+}

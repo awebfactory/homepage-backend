@@ -23,6 +23,12 @@
     "authors": {
       "plugin": "users-permissions",
       "collection": "user"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }

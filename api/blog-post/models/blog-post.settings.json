@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "blog_posts",
+  "info": {
+    "name": "Blog post"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "tags": {
+      "collection": "tag"
+    }
+  }
+}
