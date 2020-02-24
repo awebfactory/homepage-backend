@@ -18,4 +18,22 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
+/*
+  '0 * * * * *': async() => {
+   try {
+    strapi.log.info("Sending email...")
+    await strapi.plugins['email'].services.email.send({
+      to: 'victorkane@gmail.com',
+      from: 'victorkane@awebfactory.com',
+      replyTo: 'victorkane@awebfactory.com',
+      subject: 'Hi from Strapi awfdev',
+      text: 'Hello world!',
+      html: '<h3>Hello world</h3>',
+    })
+    strapi.log.info("Email sent...")
+  } catch(error) {
+    strapi.log.info("err", error)
+  }
+ }
+*/
 };
