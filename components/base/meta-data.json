@@ -1,0 +1,52 @@
+{
+  "connection": "default",
+  "collectionName": "components_base_meta_data",
+  "info": {
+    "name": "metaData",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "itemSlug": {
+      "type": "string"
+    },
+    "itemSlugLegacy": {
+      "repeatable": true,
+      "type": "string"
+    },
+    "itemName": {
+      "type": "string"
+    },
+    "itemType": {
+      "type": "string"
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "es",
+        "pt"
+      ]
+    },
+    "disabled": {
+      "type": "boolean"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "promote": {
+      "type": "boolean"
+    },
+    "sticky": {
+      "type": "boolean"
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.meta-tag"
+    }
+  }
+}

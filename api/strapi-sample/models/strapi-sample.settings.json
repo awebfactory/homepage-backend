@@ -1,0 +1,95 @@
+{
+  "connection": "default",
+  "collectionName": "strapi_samples",
+  "info": {
+    "name": "Strapi Sample"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Visits": {
+      "type": "integer"
+    },
+    "LegacyId": {
+      "type": "biginteger"
+    },
+    "HoursSlept": {
+      "type": "decimal"
+    },
+    "Price": {
+      "type": "float"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "DateTime": {
+      "type": "datetime"
+    },
+    "TimeNow": {
+      "type": "time"
+    },
+    "Published": {
+      "type": "boolean"
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "staff": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "editions": {
+      "collection": "article"
+    },
+    "email": {
+      "type": "email"
+    },
+    "password": {
+      "type": "password"
+    },
+    "Settings": {
+      "type": "enumeration",
+      "enum": [
+        "weak",
+        "medium",
+        "strong"
+      ]
+    },
+    "Pictures": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "StaffAvatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Jason": {
+      "type": "json"
+    },
+    "authors": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "metaData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.meta-data"
+    }
+  }
+}

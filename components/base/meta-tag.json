@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "metaTag",
+    "icon": "file-code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "charset": {
+      "type": "string"
+    },
+    "httpEquiv": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_base_meta_tags"
+}

@@ -52,6 +52,22 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "legacyId": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "legacyUsername": {
+      "type": "string"
+    },
+    "legacyIsAdmin": {
+      "type": "boolean"
+    },
+    "legacyIsEditor": {
+      "type": "boolean"
+    },
+    "legacyIsAuthenticated": {
+      "type": "boolean"
     }
   }
 }
