@@ -13,19 +13,19 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "find-config": "^1.0.0",
-    "strapi": "3.0.0-beta.18.7",
-    "strapi-admin": "3.0.0-beta.18.7",
-    "strapi-connector-mongoose": "3.0.0-beta.18.7",
-    "strapi-plugin-content-manager": "3.0.0-beta.18.7",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.18.7",
-    "strapi-plugin-email": "3.0.0-beta.18.7",
-    "strapi-plugin-upload": "3.0.0-beta.18.7",
-    "strapi-plugin-users-permissions": "3.0.0-beta.18.7",
-    "strapi-provider-email-sendgrid": "^3.0.0-beta.18.7",
-    "strapi-utils": "3.0.0-beta.18.7"
+    "strapi": "3.0.0-beta.18.8",
+    "strapi-admin": "3.0.0-beta.18.8",
+    "strapi-connector-mongoose": "3.0.0-beta.18.8",
+    "strapi-plugin-content-manager": "3.0.0-beta.18.8",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.18.8",
+    "strapi-plugin-email": "3.0.0-beta.18.8",
+    "strapi-plugin-upload": "3.0.0-beta.18.8",
+    "strapi-plugin-users-permissions": "3.0.0-beta.18.8",
+    "strapi-provider-email-sendgrid": "^3.0.0-beta.18.8",
+    "strapi-utils": "3.0.0-beta.18.8"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "victorkane"
   },
   "strapi": {
     "uuid": "390bb043-b272-426a-9733-e6df23dba395"
