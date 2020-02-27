@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "components_base_meta_tags",
   "info": {
     "name": "metaTag",
     "icon": "file-code"
@@ -8,7 +10,7 @@
     "name": {
       "type": "string"
     },
-    "description": {
+    "content": {
       "type": "text"
     },
     "charset": {
@@ -17,7 +19,5 @@
     "httpEquiv": {
       "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_base_meta_tags"
+  }
 }
