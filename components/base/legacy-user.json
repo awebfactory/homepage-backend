@@ -1,0 +1,49 @@
+{
+  "connection": "default",
+  "collectionName": "components_base_legacy_users",
+  "info": {
+    "name": "legacyUser",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "uid": {
+      "type": "biginteger"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "legacyCreated": {
+      "type": "datetime"
+    },
+    "legacyChanged": {
+      "type": "datetime"
+    },
+    "lastLogin": {
+      "type": "datetime"
+    },
+    "timeZone": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "legacyRoles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.legacy-role"
+    }
+  }
+}
