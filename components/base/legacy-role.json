@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_base_legacy_roles",
+  "info": {
+    "name": "legacyRole",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "roleId": {
+      "type": "biginteger"
+    },
+    "roleName": {
+      "type": "string"
+    }
+  }
+}

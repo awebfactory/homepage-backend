@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "components_base_legacy_meta_data",
+  "info": {
+    "name": "legacyMetaData",
+    "icon": "file-export"
+  },
+  "options": {},
+  "attributes": {
+    "idLegacy": {
+      "type": "biginteger"
+    },
+    "revisionId": {
+      "type": "biginteger"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "legacyCreated": {
+      "type": "datetime"
+    },
+    "legacyChanged": {
+      "type": "datetime"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

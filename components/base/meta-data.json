@@ -10,10 +10,6 @@
     "itemSlug": {
       "type": "string"
     },
-    "itemSlugLegacy": {
-      "repeatable": true,
-      "type": "string"
-    },
     "itemName": {
       "type": "string"
     },
@@ -47,6 +43,11 @@
       "type": "component",
       "repeatable": true,
       "component": "base.meta-tag"
+    },
+    "legacyInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.legacy-meta-data"
     }
   }
 }
