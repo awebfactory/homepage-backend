@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "components_base_legacy_tags",
+  "info": {
+    "name": "legacyTag",
+    "icon": "file-import"
+  },
+  "options": {},
+  "attributes": {
+    "tagId": {
+      "type": "biginteger"
+    },
+    "tagSlug": {
+      "type": "string"
+    },
+    "tagName": {
+      "type": "string"
+    },
+    "tagDescription": {
+      "type": "text"
+    },
+    "vocabId": {
+      "type": "biginteger"
+    },
+    "vocabSlug": {
+      "type": "string"
+    },
+    "vocabName": {
+      "type": "string"
+    }
+  }
+}

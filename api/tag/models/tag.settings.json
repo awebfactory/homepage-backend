@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "tags",
   "info": {
@@ -9,23 +10,15 @@
     "timestamps": true
   },
   "attributes": {
-    "idLegacy": {
-      "type": "biginteger",
-      "unique": true
-    },
     "tagSlug": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": true
     },
     "tagName": {
       "type": "string",
       "required": true,
       "unique": true
-    },
-    "vocabIdLegacy": {
-      "type": "biginteger",
-      "unique": false
     },
     "vocabSlug": {
       "type": "string",
@@ -37,6 +30,11 @@
     },
     "tagDescription": {
       "type": "text"
+    },
+    "legacyTag": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.legacy-tag"
     }
   }
 }
