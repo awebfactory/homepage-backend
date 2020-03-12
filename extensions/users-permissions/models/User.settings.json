@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "users-permissions_user",
   "info": {
@@ -53,21 +54,10 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "legacyId": {
-      "type": "biginteger",
-      "unique": true
-    },
-    "legacyUsername": {
-      "type": "string"
-    },
-    "legacyIsAdmin": {
-      "type": "boolean"
-    },
-    "legacyIsEditor": {
-      "type": "boolean"
-    },
-    "legacyIsAuthenticated": {
-      "type": "boolean"
+    "legacyUser": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.legacy-user"
     }
   }
 }

@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "users-permissions_role",
   "info": {
@@ -33,10 +34,6 @@
       "via": "role",
       "configurable": false,
       "plugin": "users-permissions"
-    },
-    "legacyId": {
-      "type": "biginteger",
-      "unique": false
     }
   }
 }

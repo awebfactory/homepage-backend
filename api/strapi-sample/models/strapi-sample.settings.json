@@ -1,4 +1,5 @@
 {
+  "kind": "collectionType",
   "connection": "default",
   "collectionName": "strapi_samples",
   "info": {
@@ -21,9 +22,6 @@
     },
     "Visits": {
       "type": "integer"
-    },
-    "LegacyId": {
-      "type": "biginteger"
     },
     "HoursSlept": {
       "type": "decimal"
