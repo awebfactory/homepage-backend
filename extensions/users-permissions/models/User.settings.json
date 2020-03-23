@@ -58,6 +58,16 @@
       "type": "component",
       "repeatable": false,
       "component": "base.legacy-user"
+    },
+    "author": {
+      "model": "author",
+      "via": "user"
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }

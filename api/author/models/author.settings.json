@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "authors",
+  "info": {
+    "name": "Author"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "penName": {
+      "type": "string"
+    },
+    "user": {
+      "via": "author",
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "bio": {
+      "type": "richtext"
+    }
+  }
+}
